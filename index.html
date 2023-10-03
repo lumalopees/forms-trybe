@@ -18,7 +18,7 @@
     </header>
 
     <main>
-      <form method="get">
+      <form method="get" id="form">
         
         <div class="user">
           <h4>Identificação:</h4>
@@ -81,8 +81,12 @@
           <h4>Palpites para palpiteiros:</h4>
           <textarea name="palpites" id="" placeholder="Vai chata, fala"></textarea>
         </div>
-      
+        
+        <label for="termos-uso">Você concorda em nos enviar seus dados?</label>
+        <input type="checkbox" name="termos" id="termos-uso">
+
         <br>
+        
         <button type="submit">Enviar</button>
       </form>
     </main>
