@@ -96,3 +96,8 @@ h4 {
   background-color: rgb(216, 209, 209);
   font-size: 20px;
 }
+
+textarea {
+  resize: none;
+  width: 300px;
+}
