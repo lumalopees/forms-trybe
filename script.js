@@ -1,14 +1,19 @@
 window.onload = () => {
   // CAPTURA DOS ELEMENTOS
   const form = document.getElementById('form');
-  const weightMarmita = document.getElementById('tamanhoMarmitas');
+  const weightMarmita = document.getElementById('tamanho');
   const eggs = document.getElementById('ovo');
   const ticket = document.querySelector('.ticket');
   const orderList = document.getElementById('orderList');
 
   // CRIA OPTIONS COM TODAS AS MARMITAS DISPONÍVEIS NO OBJETO FOODS
   const getItemsMarmita = (data) => {
-
+    const weightMarmita = document.getElementById('tamanho');
+    for (let element of data.items) {
+        const sizeOption = document.createElement('option')
+        sizeOption.innerText = element.name;
+        weightMarmita.appendChild(sizeOption);
+    }
   };
 
   // CAPTURA OS VALORES DOS INPUTS E MOSTRA A NOTA FISCAL.
