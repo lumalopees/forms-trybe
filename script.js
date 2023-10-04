@@ -13,10 +13,10 @@ window.onload = () => {
 
   // CAPTURA OS VALORES DOS INPUTS E MOSTRA A NOTA FISCAL.
   form.addEventListener('submit', (event) => {
-      const checkBox = document.getElementById('termos-uso');
-      if (!checkBox.checked) {
+    //   const checkBox = document.getElementById('termos-uso');
+    //   if (!checkBox.checked) {
           event.preventDefault();
-      }
+    //   }
 
 
       const allEaseinputs = document.querySelectorAll('.my-inputs');
