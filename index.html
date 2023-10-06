@@ -24,17 +24,24 @@
       <form method="get" id="form">
         
         <div class="container">
+
           <h4>Identificação:</h4>
-          <label for="nome">Nome:</label>
-          <input required type="text" name="nome" id="nome">
-          <br>
+
+          <div class="form-floating">
+            <input class="form-control my-imputs" required type="text" name="nome" id="nome">
+            <label for="nome">Nome:</label>
+          </div>
   
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email">
-          <br>
-  
-          <label for="endereco">Endereço:</label>
-          <input type="text" name="endereco" id="endereco">
+          <div class="form-floating">
+            <input class="form-control my-imputs" type="email" name="email" id="email">
+            <label for="email">E-mail:</label>
+          </div>
+        
+          <div class="form-floating">
+            <input class="form-control my-imputs" type="text" name="endereco" id="endereco">
+            <label for="endereco">Endereço:</label>
+          </div>
+
         </div>
         
         <div class="container">
