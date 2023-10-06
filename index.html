@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <h1 class="display-4">Ordem de Pedido</h1>
+        <h1 class="display-4 text-center">Ordem de Pedido</h1>
     </header>
 
     <main>
@@ -44,47 +44,47 @@
 
         </div>
         
-        <div class="container">
-          <h4>Tamanho da Marmita</h4>
+        <div class="container mb-4">
+          <h4 class="display-6">Tamanho da Marmita</h4>
           <label for="tamanho">Tamanho:</label>
-          <select name="tamanho" id="tamanho">
+          <select class="form-select my-imputs" name="tamanho" id="tamanho">
           </select>
         </div>
 
-        <div class="container">
-          <h4>Ovo frito?</h4>
+        <div class="container mb-4">
+          <h4 class="display-6">Ovo frito?</h4>
           <label for="ovinho">Quantidade (R$ 2,00)</label>
           <input type="number" name="qtd-ovo" id="ovinho">
+        </div>
 
-          <h4>Onde vai o feijão?</h4>
+        <div class="container mb-4">
+          <h4 class="display-6">Onde vai o feijão?</h4>
           <input type="radio" name="posicao-feijao" id="feijãoOk" value="gente-correta">  
           <label for="feijãoOk">Forma certa (feijão por cima)</label>
-          
-          <br>
-          
+        </div>
+         
+        <div class="container mb-4">
           <input type="radio" name="posicao-feijao" id="feijãoX" value="psicopatas">  
           <label for="feijãoX">Forma errada (feijão por baixo)</label>
+        </div>
 
-          <h4>Macarrão:</h4>
+        <div class="container mb-4">
+          <h4 class="display-6">Macarrão:</h4>
           <input type="checkbox" name="molho-bolonhesa" id="bolonhesa">
           <label for="bolonhesa">Molho à Bolonhesa (carne moída e molho de tomate)</label>
-
-          <br>
 
           <input type="checkbox" name="molho-branco" id="branco">
           <label for="branco">Molho Branco (base de leite e farinha de trigo, com bacon e ervas)</label>
 
-          <br>
-
           <input type="checkbox" name="molho-queijo" id="queijo">
           <label for="queijo">Molho de Queijo (um molho branco com bastante queijo derretido)</label>
 
-          <br>
-
           <input type="checkbox" name="molho-alho-oleo" id="alho-óleo">
           <label for="alho-óleo">Alho e Óleo (pois a pobreza tem seu charme)</label>
+        </div>
 
-          <h4>Palpites para palpiteiros:</h4>
+        <div class="container mb-4">
+          <h4 class="display-6">Palpites para palpiteiros:</h4>
           <textarea name="palpites" id="" placeholder="Vai chata, fala" class="my-imputs"></textarea>
         </div>
 
