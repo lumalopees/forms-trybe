@@ -24,6 +24,9 @@ window.onload = () => {
     //   }
 
 
+    const myModalAlternative = new bootstrap.Modal('#myModal')
+    myModalAlternative.show()
+
       const allEaseinputs = document.querySelectorAll('.my-inputs');
       const options = ["Nome:", "E-mail:","Tam. Marmita:", "Qtd Ovos:", "Comentários:"];
       for (let index = 0; index < allEaseinputs.length; index += 1) {
